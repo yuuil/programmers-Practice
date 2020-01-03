@@ -1,32 +1,31 @@
+function comp(a, b) {
+    return b-a;
+}
+
+function fail_comp(a, b) {
+    return (a[1]*b[2] - a[2]*b[1] == 0) ? a[0]-b[0] :  a[1]*b[2] - a[2]*b[1];
+}
+
 function solution(N, stages) {
-  var answer = [];
-  var pass = [stages.length];
-  var failure = [];
-  stages.forEach(v=> {
-      for(let i=1; i<v; i++) {
-          if(pass[i] == undefined) pass[i] = 1;
-          else pass[i]++;
-      }
-  })
-  if(pass[N] == undefined) pass[N] = 0;
-  for(let i=1; i<=N; i++) {
-      let denom = pass[i];
-      let numer = pass[i-1];
-      failure.push(1 - denom / numer);
-  }
-  for(let j=0; j<N; j++) {
-      let maxVal = Math.max.apply(null, failure);
-      let idx;
-      for(let i=0; i<failure.length; i++) {
-          if(failure[i] == maxVal) {
-              idx = i;
-              break;
-          }
-      }
-      if(idx >= 0) {
-          failure[idx] = -1;
-          answer.push(idx+1);
-      }
-  }
-  return answer;
+    var ret = [];
+    var answer = [];
+    var fail = [];
+    for(let i=0; i<=N+1; i++) {
+        answer[i] = 0;
+    }
+    stages.sort(comp);
+    stages.forEach(v=> {
+        answer[v-1]++;
+    })
+    for(let i=N; i>=1; i--) {
+        answer[i-1] += answer[i];
+    }
+    for(let i=1; i<=N; i++) {
+        fail.push([i, answer[i-1], answer[i-1] - answer[i]]);
+    }
+    fail.sort(fail_comp);
+    fail.forEach(v=> {
+        ret.push(v[0]);
+    })
+    return ret;
 }

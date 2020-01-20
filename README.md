@@ -1,15 +1,262 @@
 # 프로그래머스 코딩테스트 연습문제
+
 _With JavaScript_
 
 
 
 ## 문제 풀이 목록
 
-| - TO DO - | - DOING - | _- ~~DONE~~ -_                                               |
-| :-------- | :-------- | :----------------------------------------------------------- |
-|           |           | **[Level 1]**<br />[카카오 2020 블라인드]<br />문자열 압축<br />[카카오 2019 블라인드]<br />실패율<br />[카카오 2018 블라인드 1차]<br />다트게임<br />[해시]<br />완주하지 못한 선수<br />[완전탐색]<br />모의고사<br />[연습문제]<br />2016년<br />가운데 글자 가져오기<br />같은 숫자는 싫어<br />나누어 떨어지는 숫자 배열<br />소수 찾기<br />문자열 내 마음대로 정렬하기 *<br />문자열 내 p와 y의 개수<br />[정렬]<br />K번째수 *<br />[그리디]<br />체육복<br /><br />**[Level 2]**<br />[카카오 2020 블라인드]<br />괄호 변환<br />[카카오 2019 블라인드]<br />오픈채팅방 (기존의 시간초과 코드는 주석처리)<br />[카카오 2018 블라인드 1차]<br />뉴스 클러스터링<br />[스택/큐]<br />프린터 (c++)<br />기능개발<br /><br />**[Level 3]**<br />[카카오 2018 블라인드]<br />[1차] 셔틀버스<br />[연습문제]<br />하노이의 탑 |
+#### 카카오 2020 블라인드
+
+<details>
+  <summary>Level 1</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>문자열 압축</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
+<details>
+  <summary>Level 2</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>괄호 변환</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
 
 
+
+#### 카카오 2019 블라인드
+
+<details>
+  <summary>Level 1</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>실패율</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
+<details>
+  <summary>Level 2</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>오픈채팅방</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
+
+
+#### 카카오 2018 블라인드 1차
+
+<details>
+  <summary>Level 1</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>다트게임</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
+<details>
+  <summary>Level 2</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>뉴스 클러스터링</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
+<details>
+  <summary>Level 3</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>셔틀버스</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
+
+
+#### 연습문제
+
+<details>
+  <summary>Level 1</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>2016년</li>
+          <li>가운데 글자 가져오기</li>
+          <li>같은 숫자는 싫어</li>
+          <li>나누어 떨어지는 숫자 배열</li>
+          <li>소수 찾기</li>
+          <li>문자열 내 마음대로 정렬하기</li>
+          <li>문자열 내 p와 y의 개수</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
+<details>
+  <summary>Level 3</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>하노이의 탑</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
+
+
+#### 기타
+
+<details>
+  <summary>Level 1</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>[해시] 완주하지 못한 선수</li>
+          <li>[완전탐색] 모의고사</li>
+          <li><strong>[정렬] K번째 수</strong></li>
+          <li>[그리디] 체육복</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
+<details>
+  <summary>Level 2</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>[스택/큐] 프린터 (C++)</li>
+          <li>[스택/큐] 기능개발</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
+
+
+### [정렬]
 
 ### K번째수 *
 
@@ -24,6 +271,8 @@ arr.sort((a,b)=> {
 ```
 
 
+
+### [연습문제]
 
 ### 문자열 내 마음대로 정렬하기 *
 

@@ -178,7 +178,7 @@ _With JavaScript_
           <li>같은 숫자는 싫어</li>
           <li>나누어 떨어지는 숫자 배열</li>
           <li>소수 찾기</li>
-          <li>문자열 내 마음대로 정렬하기</li>
+          <li><strong>문자열 내 마음대로 정렬하기</strong></li>
           <li>문자열 내 p와 y의 개수</li>
           <li>문자열 내림차순으로 배치하기</li>
           <li>문자열 다루기 기본</li>
@@ -270,6 +270,7 @@ _With JavaScript_
         <ul>
           <li>[스택/큐] 프린터 (C++)</li>
           <li>[스택/큐] 기능개발</li>
+          <li>[스택/큐] 탑</li>
         </ul>
       </td>
     </tr>

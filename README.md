@@ -209,6 +209,26 @@ _With JavaScript_
 </details>
 
 <details>
+  <summary>Level 2</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>124 나라의 숫자</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
+<details>
   <summary>Level 3</summary>
   <table>
     <tr>

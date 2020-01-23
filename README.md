@@ -158,6 +158,54 @@ _With JavaScript_
 
 
 
+#### 서머코딩/윈터코딩(2019)
+
+<details>
+  <summary>Level 2</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li><strong>멀쩡한 사각형</strong></li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
+
+
+#### 서머코딩/윈터코딩(~2018)
+
+<details>
+  <summary>Level 2</summary>
+  <table>
+    <tr>
+      <th>TO DO</th>
+      <th>DOING</th>
+      <th>DONE</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <ul>
+          <li><strong>스킬트리</strong></li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
+
+
 #### 연습문제
 
 <details>
@@ -325,3 +373,17 @@ arr.sort((a,b)=> {
 K번째수에서도 보다시피 a가 b보다 작을 때는 음수가 나온다. 따라서 두 값의 차이에 따라 양, 음의 정수와 0 모든 경우를 얻게 되는데 n번째 인덱스의 문자가 같을 때 문자열을 비교하기 위해 단순히 a < b 를 리턴하면 true, false의 boolean 타입만 반환하므로 같아도 a >= b이면 0, a < b 이면 1만 반환하기 때문에 음의 정수가 리턴되는 경우가 없어 두 문자열의 정렬이 제대로 이루어지지 않은 것으로 보인다.
 
 => **따라서 문자열을 비교해 정렬이 필요하다면 `== / ===` 이 아닌 내장함수 `localeCompare` 를 사용하도록 하자.**
+
+
+
+### [서머코딩/윈터코딩(2019)]
+
+### 멀쩡한 사각형 *
+
+w = a*b, h = a*c (b,c는 서로소, a는 w,h의 최대공약수)일 때 대각선이 지나가는 정사각형은 a*(b+c-1)개.
+
+_~~이런 공식 어디서 배워~~_
+
+따라서 멀쩡한 사각형은 w*h-(w+h-gcd(w,h)) 개이다.
+
+기존 코드보다 위의 방식일 때 훨씬 빠르게 통과.
